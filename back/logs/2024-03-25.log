@@ -844,3 +844,11 @@ Completed: 400 message:  Time response: 2 ms Request ID: [9e4c22a4-7a18-431e-883
 Started POST /usuarios for :: ::ffff:127.0.0.1 at Sun Mar 24 2024 23:50:26 GMT-0300 (hora de verano de Chile)
   Parameters in body: {"email":"fabi@desafiolatam.com","password":"123456","rol":"Full Stack Developer","lenguage":"Ruby"}
 Completed: 200 message:  Time response: 87 ms Request ID: [1fc3da03-200c-4dbb-914c-cf7183e12448]
+
+Started GET /usuarios for :: ::ffff:127.0.0.1 at Sun Mar 24 2024 23:58:21 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"docente@desafiolatam.com"}
+Completed: 500 message:  Time response: 4 ms Request ID: [fa925942-3979-49bc-ad58-a0cdd0d4dc9a]
+
+Started GET /usuarios for :: ::ffff:127.0.0.1 at Sun Mar 24 2024 23:59:06 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"docente@desafiolatam.com"}
+Completed: 401 message:  Time response: 4 ms Request ID: [3a8696aa-f0d7-47b7-823c-778bbe6e4447]
