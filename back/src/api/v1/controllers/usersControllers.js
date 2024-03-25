@@ -33,10 +33,8 @@ const getUser = async (req, res) => {
   try {
     // Extraer el token de autorización del encabezado de la solicitud
     const token = req.headers.authorization.split(" ")[1];
-
     // Verificar el token
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
-
     // Utilizar la información del token para obtener los datos del usuario
     const user = await getUserByEmail(decoded.email);
 
